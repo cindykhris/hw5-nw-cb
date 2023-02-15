@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+	"flit_core >=3.2,<4",
+	"python_version >= '3.7'"
+	]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Needleman-Wunsch"
+authors = [{
+	name = "Cindy Barrios",
+	email = "cindy.barrios.ucsf.edu"
+	}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+	"pytest: 7.2.1",
+    "numpy: 1.20.1",
+]
